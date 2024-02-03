@@ -13,6 +13,8 @@ Concernant l’architecture, nous utilisons trois API différentes :
 
 Pour l’authentification, nous avons utilisé le package [“supabase_auth_ui”](https://pub.dev/packages/supabase_auth_ui). Grâce à dernier, nous pouvons nous connecter avec le nom d’utilisateur le mot de passe utilisé pour X. De plus, nous pouvons également récupérer des informations telles que l’adresse mail ou l’image du profil. 
 
+![Architecture](https://github.com/maelgllt/ASPG/blob/main/assets/architecture.png)
+
 ### Supabase
 Dans notre base de données, nous avons utilisé 2 tables : Utilisateur et Programme. De plus, Supabase nous permet de créer des fonctions personnalisées que l'on peut réutiliser dans le code. Ainsi, nous avons crée une fonction “getLastProgrammeTitle” qui nous permet donc de récupérer le dernier programme de l'utilisateur.
 
